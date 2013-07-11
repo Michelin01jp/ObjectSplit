@@ -37,7 +37,6 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AssemblyInfo1.cs" />
     <Compile Include="collision.cs" />
     <Compile Include="morse.cs" />
     <Compile Include="player.cs" />
