@@ -26,7 +26,7 @@ namespace Collision
             double denominator = (V1v.X - V1s.X) * (V2v.Y - V2s.Y) - (V1v.Y - V1s.Y) * (V2v.X - V2s.X);
 
             //分母が０の場合平行
-            if (denominator == 0)
+            if (denominator < 0.0001 && denominator > -0.0001)
             {
                 return false;
             }
